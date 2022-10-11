@@ -1,0 +1,60 @@
+#to-do-container{
+    width:30vw;
+    min-height:40vh;
+    background-color: aquamarine;
+    border: 2px solid pink;
+    border-radius: 8px;
+    margin: 2vh auto;
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#todo-heading{
+    display: flex;
+    justify-content: center;
+}
+#todo-heading>p{
+font-size: 20px;
+    color: brown; 
+    font-weight: bold;
+    margin: 0;
+    position: relative;
+    right: 3vh;
+}    
+#todo-heading>i{
+    position: relative;
+    top: 1vh;
+    left:1vh;
+}
+#input-box{
+    display: flex;
+    justify-content: center;
+    margin: 2vh 0vh;
+}
+#list-box{
+    display: flex;
+    height:3vh;
+    width:60%;
+    border: 2px solid pink;
+    background-color: aliceblue;
+    margin-bottom: 1vh;
+    border-radius: .5vh;
+}
+#list-box>p{
+    margin: 0;
+    margin-right: 2vw;
+}
+#delete-btn{
+color: red;
+margin-left: 4vh;
+}
+#edit-btn{
+color: blue;
+float: right;
+margin-left:1vh;
+}
+#complete-btn{
+    color: green;
+    margin-left: 1vh;
+}
